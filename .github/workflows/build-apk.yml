@@ -33,7 +33,7 @@ jobs:
           gradle-version: '8.13'
 
       - name: Extract Android project
-        run: unzip AI_SNAP_Android_Starter.zip -d extracted
+        run: unzip AI_SNAP_Android_Starter_Burst_Mode.zip -d extracted
 
       - name: Fix Java and Kotlin compatibility
         working-directory: extracted/AI_SNAP_Android
