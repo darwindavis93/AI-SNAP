@@ -32,8 +32,8 @@ jobs:
         with:
           gradle-version: '8.13'
 
-      - name: Extract AI SNAP V2 project
-        run: unzip AI_SNAP_V2_1_Burst_Gallery.zip -d extracted
+      - name: Extract AI SNAP V2_1_Burst_Gallery_With_App_Icon project
+        run: unzip AI_SNAP_V2_1_Burst_Gallery_With_App_Icon.zip -d extracted
 
       - name: Build AI SNAP V2
         working-directory: extracted/AI_SNAP_Android
