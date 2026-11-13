@@ -1,5 +1,5 @@
 
-name: Build AI SNAP APK
+name: Build AI SNAP APK V2.1
 
 on:
   workflow_dispatch:
